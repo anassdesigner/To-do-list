@@ -1,0 +1,107 @@
+body{
+    margin: 0%;
+    padding:0%;
+    background-color: black;
+    color: white;
+}
+
+.box{
+    width: 400px;
+    padding: 22px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.box input{
+    width: 90%;
+    font-size: 18px;
+    padding: 9px;
+    margin-top: 22px;
+    border: none;
+    outline: none;
+    background-color: antiquewhite;
+    border-radius: 2px;
+}
+
+.box button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(92, 227, 227);
+    color: #fff;
+    font-size: 17px;
+    margin-top: 22px;
+    border-radius: 5px;
+}
+
+.box button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #04AA6D
+}
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 12px;
+    margin-right: 283px;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li:before{
+    content:'';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: url(pngaaa.com-62530.png);
+    background-size: cover;
+    background-position: center;
+    top: 10px;
+    left: -25px;
+
+}
+
+.checked{
+    color:#555;
+    text-decoration: line-through;
+}
+
+.checked::before{
+   background-image: url(Green-check-mark-icon-on-transparent-background-PNG.png);
+}
+
+ul li span{
+    position: absolute;
+    right: -283px;
+    top: 10px;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background: #edeef0;
+
+}
+
+ul li editbtn{
+    position: absolute;
+    right: -240px;
+    top: 16px;
+    font-size: 22px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    
+}
